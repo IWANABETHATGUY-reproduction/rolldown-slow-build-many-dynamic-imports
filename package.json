@@ -1,0 +1,13 @@
+{
+  "name": "rolldown-optimize-dynamic-entry-bits-perf",
+  "private": true,
+  "type": "module",
+  "description": "Build time of rolldown's avoidRedundantChunkLoads pass (optimize_dynamic_entry_bits) grows much faster than the module count",
+  "scripts": {
+    "generate": "node generate.mjs 2000",
+    "bench": "node build.mjs"
+  },
+  "devDependencies": {
+    "rolldown": "1.2.14"
+  }
+}
