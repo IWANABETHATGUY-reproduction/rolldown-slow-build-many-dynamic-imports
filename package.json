@@ -1,5 +1,5 @@
 {
-  "name": "rolldown-optimize-dynamic-entry-bits-perf",
+  "name": "rolldown-slow-build-many-dynamic-imports",
   "private": true,
   "type": "module",
   "description": "Build time of rolldown's avoidRedundantChunkLoads pass (optimize_dynamic_entry_bits) grows much faster than the module count",
